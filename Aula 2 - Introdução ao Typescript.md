@@ -102,8 +102,7 @@ console.log(soma(2, 2)); // Resultado: 4
 3. **Instalar o TypeScript**
 
    ```bash
-   npm install -g typescript
-   npm install -D typescript
+   npm install typescript@^6 --save-dev
    ```
 
 4. **Gerar o arquivo de configuração (`tsconfig.json`)**
