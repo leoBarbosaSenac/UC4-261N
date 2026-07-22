@@ -178,12 +178,12 @@ npm install readline-sync
 7. Crie um array de 5 números e calcule a soma usando `for`.
 8. Faça um loop `while` que exiba números de 1 a 10.
 9. Use `for...of` para imprimir todos os elementos de um array de frutas.
-10. Use `forEach` para imprimir todos os elementos de um array de cores.
+10. Use um laço for tradicional para percorrer um array de frutas e imprimir cada elemento no console.
 11. Crie um objeto `pessoa` com `nome` e `idade` e use `for...in` para imprimir cada propriedade.
 12. Faça um loop que exiba todos os números pares de 0 a 20.
 
 ### Funções
 
 13. Crie uma função tradicional que receba 2 números e retorne o maior.
-14. Crie uma arrow function que receba um array e retorne a soma de todos os elementos.
-15. Crie uma função que peça ao usuário seu nome e idade (usando readline) e exiba uma saudação personalizada.
+14. Crie uma função que receba um array de números e retorne a soma de todos os numeros primos.
+15. Crie uma função que peça ao usuário seu nome e idade (usando readline-sync) e exiba uma saudação personalizada.
