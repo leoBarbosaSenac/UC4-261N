@@ -106,14 +106,6 @@ for (const chave in pessoa) {
   console.log(`${chave}: ${pessoa[chave]}`);
 }
 ```
-
-### forEach (arrays)
-
-```javascript
-const numeros = [1, 2, 3, 4, 5];
-numeros.forEach((num) => console.log(num));
-```
-
 ---
 
 ## 5️⃣ Funções 🛠️
@@ -142,13 +134,6 @@ const subtrai = (a, b) => a - b;
 ---
 
 ## 7️⃣ Entrada de dados do usuário 📝
-
-### prompt (navegador)
-
-```javascript
-const nome = prompt("Qual seu nome?");
-console.log(`Olá, ${nome}!`);
-```
 
 ### readline-sync (Node.js) ⚡
 
