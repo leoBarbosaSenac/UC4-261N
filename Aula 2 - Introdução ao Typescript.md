@@ -124,6 +124,7 @@ Exemplo de `tsconfig.json`:
     "rootDir": "./src",
     "outDir": "./dist",
     "module": "nodenext",
+    "moduleResolution": "nodenext",
     "target": "esnext",
     "strict": true,
     "esModuleInterop": true
