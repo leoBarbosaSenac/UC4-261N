@@ -122,7 +122,7 @@ Exemplo de `tsconfig.json`:
 {
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./src",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "target": "esnext",
