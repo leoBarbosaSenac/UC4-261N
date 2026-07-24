@@ -173,4 +173,4 @@ Exemplo de `tsconfig.json`:
 4. Crie uma **tupla** que armazene `[nome, idade]`.
 5. Crie um `enum` para representar **níveis de acesso**: `ADMIN`, `USER`, `GUEST`.
 6. Crie um objeto `pessoa` com propriedades tipadas (`nome`, `idade`, `email`).
-7. Configure um projeto com `tsconfig.json` que tenha `src/` e `dist/`.
+7. Configure um projeto com `tsconfig.json` que tenha `src/`.
