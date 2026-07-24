@@ -160,7 +160,7 @@ Exemplo de `tsconfig.json`:
 3. Rodar o JavaScript gerado:
 
    ```bash
-   node dist/index.js
+   node src/index.js
    ```
 
 ---
