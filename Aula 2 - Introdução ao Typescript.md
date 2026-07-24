@@ -169,7 +169,7 @@ Exemplo de `tsconfig.json`:
 
 1. Crie uma função `dobrar` que receba um número e retorne ele dobrado.
 2. Crie uma função `saudacao` que receba um nome (`string`) e retorne `"Olá, <nome>"`.
-3. Defina um **array de strings** com nomes de amigos e percorra ele com `forEach`.
+3. Defina um **array de strings** com nomes de amigos e percorra ele.
 4. Crie uma **tupla** que armazene `[nome, idade]`.
 5. Crie um `enum` para representar **níveis de acesso**: `ADMIN`, `USER`, `GUEST`.
 6. Crie um objeto `pessoa` com propriedades tipadas (`nome`, `idade`, `email`).
