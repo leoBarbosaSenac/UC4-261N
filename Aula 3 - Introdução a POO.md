@@ -319,7 +319,12 @@ Transforme todos os atributos das classes **Guerreiro** e **Monstro** em `privat
 
 Depois, tente acessá-los diretamente para observar o erro gerado pelo TypeScript.
 
-> **Desafio:** Escolha um dos atributos e altere seu modificador para `protected`. Embora ainda não tenhamos estudado herança, pense: **em quais situações esse modificador poderia ser útil?**
+> **Desafio:** Escolha um dos atributos e altere seu modificador para `protected`.
+>
+> Embora ainda não tenhamos estudado herança, pense:
+>
+> **Em quais situações esse modificador poderia ser útil?**
+
 ---
 
 # 12. Getters e Setters
@@ -331,7 +336,7 @@ Uma prática muito comum é deixar os atributos privados e permitir o acesso ape
 Retorna o valor de um atributo.
 
 ```ts
-public getName(): string{
+public getName(): string {
 
     return this.name;
 
@@ -343,7 +348,7 @@ public getName(): string{
 Altera o valor de um atributo.
 
 ```ts
-public setName(name: string): void{
+public setName(name: string): void {
 
     this.name = name;
 
