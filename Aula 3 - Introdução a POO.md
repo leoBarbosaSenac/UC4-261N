@@ -114,12 +114,14 @@ Boas abstrações tornam o código:
 ### Atributos
 
 - nome: string
+- email: string
 - tarefas: Tarefa[]
 
 ### Métodos
 
 - adicionarTarefa()
 - removerTarefa()
+- listarTarefas()
 
 ---
 
