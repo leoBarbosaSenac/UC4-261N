@@ -266,35 +266,60 @@ Boas abstrações escondem detalhes da implementação e expõem apenas o necess
 
 ---
 
-# 11. public e private
+# 11. public, private e protected
 
-Os membros de uma classe podem possuir modificadores de acesso.
+Os membros de uma classe podem possuir modificadores de acesso que controlam onde eles podem ser utilizados.
 
-## public
+## `public`
 
 Pode ser acessado de qualquer lugar.
 
-## private
+É o modificador padrão do TypeScript. Quando nenhum modificador é informado, o atributo ou método será público.
+
+## `private`
 
 Pode ser acessado apenas dentro da própria classe.
 
-```ts
-export class Dog{
+Nem mesmo classes que herdam dessa classe conseguem acessar um membro `private`.
 
+## `protected`
+
+Pode ser acessado dentro da própria classe **e também pelas classes filhas (herdeiras)**.
+
+Entretanto, não pode ser acessado diretamente por código externo.
+
+> **Observação:** Embora ainda não tenhamos estudado herança, o modificador `protected` será muito útil na próxima aula, quando veremos como uma classe pode herdar atributos e métodos de outra.
+
+### Exemplo
+
+```ts
+export class Dog {
+
+    public breed: string;
+    protected age: number;
     private name: string;
     private weight: number;
 
 }
 ```
 
+### Comparação
+
+| Modificador | Mesma classe | Classes filhas | Fora da classe |
+|-------------|:------------:|:--------------:|:--------------:|
+| `public` | ✅ | ✅ | ✅ |
+| `protected` | ✅ | ✅ | ❌ |
+| `private` | ✅ | ❌ | ❌ |
+
 ---
 
 # Exercício 4 — Encapsulando
 
-Transforme todos os atributos das classes Guerreiro e Monstro em `private`.
+Transforme todos os atributos das classes **Guerreiro** e **Monstro** em `private`.
 
-Depois tente acessá-los diretamente para observar o erro gerado pelo TypeScript.
+Depois, tente acessá-los diretamente para observar o erro gerado pelo TypeScript.
 
+> **Desafio:** Escolha um dos atributos e altere seu modificador para `protected`. Embora ainda não tenhamos estudado herança, pense: **em quais situações esse modificador poderia ser útil?**
 ---
 
 # 12. Getters e Setters
