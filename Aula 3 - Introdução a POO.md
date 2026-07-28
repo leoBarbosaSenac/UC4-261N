@@ -1,151 +1,96 @@
-# Aula #3 - Introdução à Programação Orientada a Objetos
+# Aula 3 - Classes e Encapsulamento
 
-**Téc em Desenvolvimento de Sistemas Bilíngue**
-*Desenvolver Código Orientado a Objetos*
+> **Téc em Desenvolvimento de Sistemas Bilíngue**  
+> Unidade Curricular: Desenvolver Código Orientado a Objetos
 
 ---
 
 # 1. Paradigmas de Programação
 
-Os **paradigmas de programação** são diferentes formas de estruturar e organizar programas. Cada paradigma propõe um conjunto de princípios e boas práticas que ajudam a produzir códigos mais **legíveis**, **reutilizáveis**, **testáveis** e **fáceis de manter**.
+Os paradigmas de programação representam diferentes maneiras de pensar, estruturar e organizar um programa. Cada paradigma propõe princípios que ajudam a produzir códigos mais legíveis, consistentes, testáveis e fáceis de manter.
 
-Nesta disciplina iremos trabalhar principalmente com a **Programação Orientada a Objetos (POO)**, mas antes é importante conhecer alguns paradigmas bastante utilizados.
+## Programação Estruturada
 
-## Principais Paradigmas
+- Organiza o programa utilizando estruturas de sequência, decisão e repetição.
+- Utiliza estruturas como `if`, `switch`, `for` e `while`.
+- Torna o fluxo de execução previsível e organizado.
 
-### Programação Estruturada
+## Programação Orientada a Objetos (POO)
 
-A programação estruturada organiza o código utilizando estruturas de controle bem definidas, como:
-
-* Sequência de instruções;
-* Estruturas de decisão (`if`, `switch`);
-* Estruturas de repetição (`for`, `while`, `do...while`).
-
-Esse modelo torna o fluxo de execução previsível, facilitando a leitura, a manutenção e a depuração do código.
-
-### Programação Orientada a Objetos (POO)
-
-A Programação Orientada a Objetos organiza o software em **objetos**, que agrupam informações e comportamentos relacionados.
-
-Seu principal objetivo é aproximar o código da forma como enxergamos o mundo real, tornando sistemas complexos mais fáceis de desenvolver, compreender e manter.
+- Organiza o software utilizando objetos.
+- Agrupa dados e comportamentos relacionados.
+- Facilita o reaproveitamento de código e a manutenção de sistemas complexos.
 
 ---
 
-# 2. Orientação a Objetos (POO)
+# 2. Objetos
 
-A **Programação Orientada a Objetos (POO)** é um dos paradigmas mais difundidos atualmente.
+Na Programação Orientada a Objetos, um objeto representa uma entidade do mundo real ou do próprio sistema.
 
-Ela surgiu na década de 1960 como uma forma de lidar com o aumento da complexidade dos softwares, permitindo organizar melhor os dados e os comportamentos do sistema.
+Todo objeto possui:
 
-Na POO, a unidade central é o **objeto**.
+- **Atributos** → informações que descrevem o objeto.
+- **Métodos** → ações que o objeto pode executar.
 
-Um objeto representa uma entidade específica e reúne:
+## Exemplo
 
-* **Atributos:** informações que descrevem o objeto;
-* **Métodos:** ações ou comportamentos que aquele objeto pode executar.
+**Cachorro**
 
-### Exemplo
+Atributos:
 
-Imagine um cachorro.
+- nome
+- peso
 
-Ele possui algumas características:
+Métodos:
 
-* nome;
-* peso;
-* idade;
-* raça.
+- latir()
+- comer()
 
-Essas características são seus **atributos**.
-
-Agora pense nas ações que ele pode realizar:
-
-* latir;
-* correr;
-* comer;
-* dormir.
-
-Essas ações representam seus **métodos**.
-
-Assim, conseguimos representar objetos do mundo real utilizando código.
-
-> **Atenção!**
->
-> Nesse contexto, o conceito de objeto é um pouco diferente dos objetos que já conhecemos em JavaScript.
->
-> Em JavaScript podemos criar objetos diretamente, sem utilizar uma classe.
->
-> Já na Programação Orientada a Objetos tradicional, normalmente criamos objetos a partir de uma **classe**, que funciona como um modelo para sua construção.
+> Em JavaScript existem objetos criados diretamente. Na POO tradicional, normalmente criamos objetos a partir de uma **classe**.
 
 ---
 
-# 3. Classes e Abstração
+# 3. Classes
 
-## Classes
-
-Uma **classe** funciona como um **molde** ou uma **planta** para criar objetos.
+Uma classe funciona como um molde para criar objetos.
 
 Ela define:
 
-* quais atributos os objetos possuirão;
-* quais métodos eles poderão executar;
-* valores padrão, quando necessário.
+- quais atributos existirão;
+- quais métodos estarão disponíveis;
+- possíveis valores padrão.
 
-Além disso, a classe contém a implementação dos métodos, ou seja, o código responsável por executar os comportamentos dos objetos.
-
-No **TypeScript**, uma classe também define um **novo tipo**, permitindo que seja utilizada na declaração de variáveis. Esse conceito está relacionado aos **Tipos Abstratos de Dados (TADs)**, que representam tipos definidos pelo próprio programador.
-
-### Classe × Objeto
-
-Uma boa analogia é pensar na construção de uma casa.
-
-A **planta da casa** representa a **classe**.
-
-Ela define:
-
-* quantos quartos existirão;
-* onde ficarão as portas;
-* onde estarão as janelas.
-
-A casa construída representa um **objeto**.
-
-Podemos construir diversas casas utilizando a mesma planta. Cada uma delas será uma casa diferente, mas todas seguirão o mesmo modelo.
-
-Da mesma forma:
-
-* **Classe** → modelo.
-* **Objeto (instância)** → elemento criado a partir desse modelo.
+No TypeScript, uma classe também representa um tipo que pode ser utilizado na declaração de variáveis.
 
 ---
 
-## Abstração
+# 4. Abstração
 
-A **abstração** consiste em representar apenas as características importantes de um objeto, escondendo detalhes que não são necessários para quem utiliza aquela classe.
+Abstração consiste em representar apenas as características importantes de um objeto, escondendo detalhes de implementação.
 
-Isso torna o código:
+Boas abstrações tornam o código:
 
-* mais simples;
-* mais legível;
-* mais reutilizável;
-* mais consistente;
-* mais fácil de expandir.
-
-Boas abstrações reduzem a complexidade do sistema e facilitam sua manutenção, embora sejam difíceis de projetar e normalmente exijam bastante experiência.
+- mais simples;
+- mais reutilizável;
+- mais legível;
+- mais consistente;
+- mais fácil de expandir.
 
 ---
 
-# 4. Exemplos de Classes (UML / Diagramas)
+# 5. Exemplos de Modelagem
 
 ## Cachorro
 
 ### Atributos
 
-* `nome: string`
-* `peso: number`
+- nome: string
+- peso: number
 
 ### Métodos
 
-* `latir(): void`
-* `comer(quantidade: number): void`
+- latir()
+- comer()
 
 ---
 
@@ -153,16 +98,14 @@ Boas abstrações reduzem a complexidade do sistema e facilitam sua manutenção
 
 ### Atributos
 
-* `nome: string`
-* `peso: number`
+- nome: string
+- peso: number
 
 ### Métodos
 
-* `chirriar(): void`
-* `comer(quantidade: number): void`
-* `voar(tempo: number): void`
-
-Observe que **Cachorro** e **Coruja** possuem atributos semelhantes, mas comportamentos diferentes. Cada classe representa um conceito distinto do mundo real.
+- chirriar()
+- comer()
+- voar()
 
 ---
 
@@ -170,64 +113,250 @@ Observe que **Cachorro** e **Coruja** possuem atributos semelhantes, mas comport
 
 ### Atributos
 
-* `nome: string`
-* `tarefas: Tarefa[]`
+- nome: string
+- tarefas: Tarefa[]
 
 ### Métodos
 
-* `adicionarTarefa(): void`
-* `removerTarefa(): void`
-
-Esse exemplo representa um objeto mais próximo de uma aplicação real, mostrando que classes não servem apenas para representar objetos físicos, mas também entidades do sistema.
+- adicionarTarefa()
+- removerTarefa()
 
 ---
 
-# 5. Declarando e Construindo Classes no TypeScript
+# Exercício 1 — Modelagem
 
-## Declarando uma Classe
+Sem escrever código, modele as seguintes classes.
 
-A declaração de uma classe define um novo tipo de objeto e serve como modelo para criar diversas instâncias.
+## Guerreiro
 
-Cada objeto criado a partir da classe é chamado de **instância**.
+Inicia com:
 
-Cada instância possui sua própria cópia dos atributos definidos pela classe, mas compartilha os métodos implementados nela.
+- Saúde: 100
 
-Como a classe define um tipo, ela também pode ser utilizada na declaração de variáveis.
+Defina:
 
-```typescript
+- Nome
+- Tipo
+- Força
+- Saúde
+
+Além disso, pense em métodos que façam sentido.
+
+---
+
+## Monstro
+
+Inicia com:
+
+- Força: 50
+- Saúde: 10
+
+Defina:
+
+- Nome
+- Força
+- Saúde
+
+Também crie métodos apropriados.
+
+---
+
+# 6. Declarando Classes no TypeScript
+
+Uma classe é declarada utilizando a palavra-chave `class`.
+
+```ts
 export class Dog {
-  name: string;
-  weight: number;
 
-  bark(): void {
-    console.log("Au Au");
-  }
+    name: string;
+    weight: number;
 
-  eat(quantity: number): void {
-    console.log(`The dog has eaten ${quantity}`);
-  }
-}
+    bark(): void {
+        console.log("Au Au");
+    }
 
-export class Owl {
-  name: string;
-  weight: number;
+    eat(quantity: number): void {
+        console.log(`The dog has eaten ${quantity}`);
+    }
 
-  chirp(): void {
-    console.log("Hu Hu");
-  }
-
-  eat(quantity: number): void {
-    console.log(`The owl has eaten ${quantity}`);
-  }
-
-  fly(minutes: number): void {
-    console.log(`The owl has flown for ${minutes} minutes`);
-  }
 }
 ```
 
-Observe que declaramos apenas **o modelo** dos objetos.
+Uma classe pode ser utilizada como um tipo.
 
-Ainda não existe nenhum cachorro ou coruja na memória do programa.
+Também podemos criar diversas instâncias dessa classe.
 
-Para isso, precisamos **instanciar** essas classes, assunto que veremos na sequência das aulas.
+---
+
+# Exercício 2 — Implementando as Classes
+
+Implemente em TypeScript as classes Guerreiro e Monstro modeladas anteriormente.
+
+Neste momento, não utilize construtor.
+
+---
+
+# 7. Constructor
+
+Podemos executar ações automaticamente quando um objeto é criado.
+
+Para isso utilizamos o método especial `constructor`.
+
+```ts
+constructor(name: string, weight: number){
+
+    this.name = name;
+    this.weight = weight;
+
+}
+```
+
+Quando não declaramos um construtor, o TypeScript cria um construtor vazio automaticamente.
+
+---
+
+# 8. A palavra-chave this
+
+A referência `this` aponta para a instância atual da classe.
+
+Ela é utilizada para acessar atributos e métodos do próprio objeto.
+
+```ts
+this.name
+this.weight
+this.bark()
+```
+
+---
+
+# 9. Criando Objetos
+
+Para criar uma instância utilizamos a palavra-chave `new`.
+
+```ts
+const dog1 = new Dog("Rex", 15);
+
+const dog2 = new Dog("Bob", 8);
+```
+
+Cada objeto possui seus próprios atributos.
+
+---
+
+# Exercício 3 — Constructors
+
+Atualize as classes Guerreiro e Monstro.
+
+Agora:
+
+- utilize constructor;
+- utilize this;
+- crie duas instâncias de Guerreiro;
+- crie dois Monstros.
+
+---
+
+# 10. Encapsulamento
+
+Encapsulamento consiste em controlar como os dados de uma classe podem ser acessados.
+
+Boas abstrações escondem detalhes da implementação e expõem apenas o necessário.
+
+---
+
+# 11. public e private
+
+Os membros de uma classe podem possuir modificadores de acesso.
+
+## public
+
+Pode ser acessado de qualquer lugar.
+
+## private
+
+Pode ser acessado apenas dentro da própria classe.
+
+```ts
+export class Dog{
+
+    private name: string;
+    private weight: number;
+
+}
+```
+
+---
+
+# Exercício 4 — Encapsulando
+
+Transforme todos os atributos das classes Guerreiro e Monstro em `private`.
+
+Depois tente acessá-los diretamente para observar o erro gerado pelo TypeScript.
+
+---
+
+# 12. Getters e Setters
+
+Uma prática muito comum é deixar os atributos privados e permitir o acesso apenas através de métodos públicos.
+
+## Getter
+
+Retorna o valor de um atributo.
+
+```ts
+public getName(): string{
+
+    return this.name;
+
+}
+```
+
+## Setter
+
+Altera o valor de um atributo.
+
+```ts
+public setName(name: string): void{
+
+    this.name = name;
+
+}
+```
+
+Essa abordagem aumenta a segurança, a consistência e facilita futuras alterações.
+
+---
+
+# Exercício 5 — Getters e Setters
+
+Implemente getters e setters para:
+
+- nome;
+- força;
+- saúde.
+
+Como desafio, faça o setter de saúde impedir valores negativos.
+
+---
+
+# Resumo
+
+Nesta aula aprendemos:
+
+- Paradigmas de programação;
+- Objetos;
+- Classes;
+- Abstração;
+- Modelagem;
+- Declaração de classes em TypeScript;
+- Instâncias;
+- Constructor;
+- this;
+- new;
+- Encapsulamento;
+- public;
+- private;
+- Getters;
+- Setters.
+
+Na próxima aula veremos como as classes podem compartilhar comportamentos através de Herança e Polimorfismo.
