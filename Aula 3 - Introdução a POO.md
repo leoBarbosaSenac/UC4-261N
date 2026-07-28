@@ -1,4 +1,4 @@
-# Aula #5 - Classes e Encapsulamento
+# Aula #3 - Introdução à Programação Orientada a Objetos
 
 **Téc em Desenvolvimento de Sistemas Bilíngue**
 *Desenvolver Código Orientado a Objetos*
