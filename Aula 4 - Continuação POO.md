@@ -1,4 +1,4 @@
-# Introdução à Programação Orientada a Objetos (POO) em TypeScript
+# Continuação/Revisão: Programação Orientada a Objetos (POO) em TypeScript
 
 ## O que é Programação Orientada a Objetos?
 
