@@ -121,16 +121,22 @@ Exemplo de `tsconfig.json`:
 ```json
 {
   "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
     "rootDir": "./src",
-    "outDir": "./src",
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
-    "target": "esnext",
+    "outDir": "./dist",
+
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    "moduleResolution": "node",
+    "types": ["node"],
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["./node_modules", "./dist"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
 ```
 
