@@ -128,12 +128,8 @@ Exemplo de `tsconfig.json`:
 
     "strict": true,
     "esModuleInterop": true,
-
     "moduleResolution": "node",
     "types": ["node"],
-
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
