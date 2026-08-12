@@ -125,9 +125,9 @@ cobra.botarOvo();      // método da classe Reptil
 
 ### 📝 Exercício 1: Criando novas subclasses
 
-* Crie uma subclasse `Crocodile` que herda de `Animal`.
+* Crie uma subclasse `Crocodile` que herda de `Reptil`.
 * Adicione um método `swim()` (nadar).
-* Teste no `index.ts` criando um objeto `crocodilo` e chame seus métodos.
+* Teste no `index.ts` criando um objeto `crocodile` e chame seus métodos.
 
 ---
 
@@ -135,7 +135,9 @@ cobra.botarOvo();      // método da classe Reptil
 
 ### 📝 Exercício 2: Generalização
 
+* Crie as classes `Bird`, `Dog` e `Owl`, com as heranças que julgar necessárias.
 * Crie um array que deve aceitar todos os animais (Dog, Owl e Crocodile). Pergunte-se: de que tipo esse array deve ser?
+* Adicione na classe `Animal` o método `eat()`.
 * Adicione dentro dele instâncias de `Dog`, `Owl` e `Crocodile`.
 * Percorra o array e chame o método `eat()` de cada objeto.
 * Observe que **todos têm o mesmo método**, mas pertencem a classes diferentes.
