@@ -128,8 +128,7 @@ Exemplo de `tsconfig.json`:
 
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "types": ["node"]
+    "moduleResolution": "node"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
