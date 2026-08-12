@@ -124,7 +124,7 @@ Exemplo de `tsconfig.json`:
     "target": "ES2020",
     "module": "CommonJS",
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./src",
 
     "strict": true,
     "esModuleInterop": true,
