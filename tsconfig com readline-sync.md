@@ -24,7 +24,7 @@ npm init -y
 Instale o TypeScript como dependência de desenvolvimento:
 
 ```bash
-npm install -D typescript
+npm install typescript@^6 -D
 ```
 
 Podemos verificar se a instalação funcionou:
