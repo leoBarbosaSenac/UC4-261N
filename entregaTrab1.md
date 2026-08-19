@@ -23,7 +23,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Anthony - **OK**
 - Arthur
 - Bianca
-- Bruno Henrique
+- Bruno Henrique - **OK**
 - Bruno Rosa
 - Erick Fernando
 - Erick Gustavo - **OK**
