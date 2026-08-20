@@ -25,7 +25,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Bianca
 - Bruno Henrique - **OK**
 - Bruno Rosa
-- Erick Fernando
+- Erick Fernando - **OK**
 - Erick Gustavo - **OK**
 - Gabriel Hoffman
 - Gabriel Thomas
