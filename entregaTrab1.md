@@ -38,7 +38,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Rafael Fernando - **OK**
 - Rafael Fofonka - **OK**
 - Silvio
-- Taiane
+- Tauane
 - Tomas - **OK**
 - Victor
 - Wellington
