@@ -36,7 +36,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Mariana
 - Nathalia - **OK**
 - Rafael Fernando - **OK**
-- Rafael Fofonka
+- Rafael Fofonka - **OK**
 - Silvio
 - Taiane
 - Tomas
