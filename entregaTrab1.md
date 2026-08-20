@@ -31,7 +31,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Gabriel Thomas
 - José
 - Juliana
-- Lohan
+- Lohan - **OK**
 - Marcia
 - Mariana
 - Nathalia - **OK**
