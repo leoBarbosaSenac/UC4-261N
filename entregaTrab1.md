@@ -21,10 +21,11 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 
 - Alison
 - Anthony - **OK**
-- Arthur
+- Arthur - **OK**
 - Bianca
 - Bruno Henrique - **OK**
 - Bruno Rosa
+- Dionatan - **OK**
 - Erick Fernando - **OK**
 - Erick Gustavo - **OK**
 - Gabriel Hoffman
