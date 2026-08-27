@@ -31,10 +31,10 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Gabriel Hoffman
 - Gabriel Thomas
 - José
-- Juliana
+- Juliana - **OK**
 - Lohan - **OK**
 - Marcia
-- Mariana
+- Mariana - **OK**
 - Nathalia - **OK**
 - Rafael Fernando - **OK**
 - Rafael Fofonka - **OK**
