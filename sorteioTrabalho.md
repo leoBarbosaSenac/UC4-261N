@@ -19,3 +19,8 @@
 9. **Eric F. e Arthur**
 
 10. **Nath**
+
+
+APRESENTADOS: 
+**Bruno H, Emanuel, Eric G**
+**Anthony e Mari**
