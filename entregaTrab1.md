@@ -24,7 +24,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - Arthur - **OK**
 - Bianca
 - Bruno Henrique - **OK**
-- Bruno Rosa
+- Bruno Rosa - **OK**
 - Dionatan - **OK**
 - Erick Fernando - **OK**
 - Erick Gustavo - **OK**
