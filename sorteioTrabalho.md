@@ -1,8 +1,8 @@
 # Sorteio dos Grupos para Apresentação
 
-1. **Gêmeos**
+1. **Wellington**
 
-2. **Alison e Bianca**
+2. **Gêmeos**
 
 3. **Silvio**
 
@@ -10,17 +10,16 @@
 
 5. **Bruno R. e Dionatan**
 
-6. **Rafa & Rafa**
+6. **Eric F. e Arthur**
 
-7. **Ju**
-
-8. **Tomas e Lohan**
-
-9. **Eric F. e Arthur**
-
-10. **Nath**
+7. **Nath**
+   
+9. **Alison e Bianca**
 
 
 APRESENTADOS: 
-**Bruno H, Emanuel, Eric G**
-**Anthony e Mari**
+**Bruno H, Emanuel, Eric G**;
+**Anthony e Mari**;
+**Rafa & Rafa**;
+**Ju**;
+**Tomas e Lohan**;
