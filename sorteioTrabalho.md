@@ -8,12 +8,6 @@
 
 4. **Tauane e Marcia**
 
-5. **Bruno R. e Dionatan**
-
-6. **Eric F. e Arthur**
-
-7. **Nath**
-   
 9. **Alison e Bianca**
 
 
@@ -23,3 +17,6 @@ APRESENTADOS:
 **Rafa & Rafa**;
 **Ju**;
 **Tomas e Lohan**;
+**Nath**;
+**Bruno R. e Dionatan**;
+**Eric F., Victor e Arthur**
