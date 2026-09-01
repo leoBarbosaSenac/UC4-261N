@@ -19,7 +19,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 
 ## Lista de alunos
 
-- Alison
+- Alison - **OK**
 - Anthony - **OK**
 - Arthur - **OK**
 - Bianca
@@ -33,7 +33,7 @@ Cada aluno deve adicionar somente o link do seu próprio repositório.
 - José
 - Juliana - **OK**
 - Lohan - **OK**
-- Marcia
+- Marcia - **OK**
 - Mariana - **OK**
 - Nathalia - **OK**
 - Rafael Fernando - **OK**
