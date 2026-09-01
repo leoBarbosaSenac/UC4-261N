@@ -6,9 +6,7 @@
 
 3. **Silvio**
 
-4. **Tauane e Marcia**
-
-9. **Alison e Bianca**
+4. **Bianca**
 
 
 APRESENTADOS: 
@@ -19,4 +17,5 @@ APRESENTADOS:
 **Tomas e Lohan**;
 **Nath**;
 **Bruno R. e Dionatan**;
-**Eric F., Victor e Arthur**
+**Eric F., Victor e Arthur**;
+**Marcia, Tauane e Alison** 
